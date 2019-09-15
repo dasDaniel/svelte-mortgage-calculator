@@ -48,7 +48,6 @@
 			})
 		}
 		amortizationPayments = yearEndPrincipal;
-		console.log(amortizationPayments)
 	  amortizationRects = amortizationGraphBars(amortizationPayments, 500, 250)
 	}
 	
@@ -83,7 +82,6 @@
 			x = parseInt(i) * (w + spacing) 
 			w -= 1
 			h = p * height/principal
-			console.log(p, height, principal)
 			h = h > 3 ? h : 3
 			y = height - h
 
@@ -97,7 +95,6 @@
 				'data-year': parseInt(i) + 1
 			})
 		}
-		console.log(bars)
 		return bars
 	};
 	function setHover (p, e) {
