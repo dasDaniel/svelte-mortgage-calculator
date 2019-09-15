@@ -2,7 +2,7 @@
 	import InputField from "./InputField.svelte"
 
 	let homeValue = 350000;
-	let downpayment = 0;// homeValue * 0.05;
+	let downpayment = 0; // homeValue * 0.05;
 	let interestPercent = 2.5;
 	let amortization = 25;
 	let paymentFrequency = 12;
